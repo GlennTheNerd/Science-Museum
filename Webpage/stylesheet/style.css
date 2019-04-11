@@ -34,3 +34,12 @@ font-family: 'Montserrat', sans-serif; ---*/
     margin:0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+.rnd-img {
+    width: 10em;
+    border-radius: 50%
+}
