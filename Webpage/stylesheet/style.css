@@ -44,16 +44,76 @@ a {
     text-decoration: none;
 }
 
+h2, .fatFont {
+    text-transform: uppercase;
+}
+
+.fatFont {
+     font-weight:600 !important;
+}
+.carousel-caption h3 {
+        text-shadow: 1px 1px 10px black;
+    }
+
+.jumbotron {
+    padding: 1em !important;
+    border: 0 !important;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome hr, #explore {
+    border-top: 2px solid #b4b4b4;
+}
+
+b {
+    color: red;
+}
+/*----Button--------*/
+.btn-primary {
+    background-color: #70ABAF !important;
+    border: 1px solid #B8C4BB !important;
+}
+
+.btn-primary:hover {
+    background-color: #F0F7F4 !important;
+    border: 1px solid #F0F7F4 !important;
+    color: black !important;
+}
 
 /* Images */
 .rnd-img {
     width: 10em;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .carousel-inner img {
     width: 100%;
     height: 100%;
+}
+
+.col-lg-6 img {
+    margin-top: 2em;
+    border-radius: 3px;
+    border: 2em solid grey;
+}
+#libary {
+    background-image: url("../../Content/images/mobile/background/purple-lib.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-color:#CA3CFF;
+    background-attachment: fixed;     
+}
+#kids {
+    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
 }
 
 /* NavBar*/
@@ -64,12 +124,11 @@ a {
 }
 
 .navbar {
-    padding: .8rem;
-    height:;
+    padding: .8rem !important;
 }
 
 .navbar-nav li {
-    padding-right: 1rem
+    padding-right: 1rem;
 }
 
 .nav-link {
@@ -82,21 +141,59 @@ a {
     transform: translateY(-50%);
 }
 
+/* ---------------Footer ----------*/
+footer {
+    background-color: #32292F;
+    color: #F0F7F4;
+    padding-top: 2em;
+}
+
+hr.ft-light {
+    border-top: 1px solid #F0F7F4;
+}
+
+@media only screen and (min-width: 992px) {
+    .teacher {
+        background-image: url(../../Content/images/teacher-2816112.jpg);
+        background-repeat:no-repeat;
+        background-size: 8em;
+        background-position: bottom right;
+    }
+}
 
 @media only screen and (min-width: 650px) {
-.carousel-caption h1 {
+    
+    /*Header carousel*/
+    .carousel-caption h1 {
     font-family: 'Merriweather', serif; 
     font-size: 300%;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px black;
     
+    }
+
+    .carousel-caption h3 {
+        font-size: 120%;
+    }
+    
+/*------Background Image section---*/
+    .scientist {
+        background-image: url(../../Content/images/Logo/scientist.png);
+        background-repeat:no-repeat;
+        background-size: 10em;
+        background-position: bottom right;
+    }
+/*-----------horisontal rule--------*/    
+    .my-4 {
+        display:none;
+    }
 }
 
-.carousel-caption h3 {
-    font-size: 120%;
-}
-}
+/*--------------------------*/
 @media only screen and (max-width: 649px) {
+    
+    /*Header carousel*/
+    
     .carousel-caption h1 {
     font-family: 'Merriweather', serif; 
     font-size: 150%;
@@ -111,13 +208,25 @@ a {
     }
     
     .carousel-caption button {
-        height: %;
-        font-size: .8em
+        font-size: .8em;
+        
     }
-
+/*background image section*/
+    #kids {
+    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: 90em;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+    background-position: center;
+    }
 }
 
+/*-----------------------------*/
 @media only screen and (max-width: 387px){
+    
+    /*Header carousel*/
     .carousel-caption h1 {
     font-family: 'Merriweather', serif; 
     font-size: 120%;
@@ -132,8 +241,31 @@ a {
     }
     
     .carousel-caption button {
-        height: %;
-        font-size: .8em
+        font-size: .8em;
+    }
+    
+    .fatFont {
+        font-size: 2em !important;
+    }
+/*---background image section*-----*/
+    #kids {
+    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: 80em;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+    background-position: center;
+    }
+    
+    #libary {
+    background-image: url("../../Content/images/mobile/background/purple-lib.png");
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: 80em;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+    background-position: center;
     }
 }
 
