@@ -116,6 +116,10 @@ b {
     background-attachment: fixed;
 }
 
+.galleryParent {
+    margin: 2em auto;
+}
+
 /* NavBar*/
 .navbar h1 {
     font-family: 'Montserrat', sans-serif;
@@ -187,6 +191,16 @@ hr.ft-light {
     .my-4 {
         display:none;
     }
+    
+/*--------Image Section---------*/
+    .galleryMobile {
+        display:none;
+    }
+    
+    .galleryDesktop {
+        border-radius: 3px;
+        border: 2em solid grey; 
+    }
 }
 
 /*--------------------------*/
@@ -220,6 +234,12 @@ hr.ft-light {
     background-color:#CA3CFF;
     background-attachment: fixed;
     background-position: center;
+    }
+    
+/*Images section*/
+    
+    .galleryDesktop {
+        display:none;
     }
 }
 
@@ -274,4 +294,12 @@ hr.ft-light {
     * {
         opacity: 0;
     }
+}
+
+/*---firefox bug fix ----------*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible; backface-visibility: visible;   
 }
