@@ -44,8 +44,19 @@ a {
     text-decoration: none;
 }
 
+blockquote {
+    font-style: italic;
+    font-weight:500;
+}
+
 h2, .fatFont {
     text-transform: uppercase;
+}
+
+.head2 {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    margin-bottom: 1.5rem;
 }
 
 .fatFont {
@@ -99,6 +110,10 @@ b {
     border-radius: 3px;
     border: 2em solid grey;
 }
+
+.img-fluid {
+    margin-bottom: 2em;
+}
 #libary {
     background-image: url("../../Content/images/mobile/background/purple-lib.png");
     background-repeat: no-repeat;
@@ -145,6 +160,13 @@ b {
     transform: translateY(-50%);
 }
 
+.location {
+    width: 100%;
+}
+
+.visitList {
+    margin-top: 2em;
+}
 /* ---------------Footer ----------*/
 footer {
     background-color: #32292F;
@@ -180,6 +202,15 @@ hr.ft-light {
         font-size: 120%;
     }
     
+    #museum {
+    background-image: url("../../Content/images/mobile/background/blueMuseum.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+}
+    
 /*------Background Image section---*/
     .scientist {
         background-image: url(../../Content/images/Logo/scientist.png);
@@ -201,6 +232,16 @@ hr.ft-light {
         border-radius: 3px;
         border: 2em solid grey; 
     }
+    
+/*----Google Maps ------*/
+    .location {
+        border: 10px solid grey;
+        height: 600px;
+    }
+    
+.visitList {
+    margin-top: 6em;
+}
 }
 
 /*--------------------------*/
@@ -241,6 +282,15 @@ hr.ft-light {
     .galleryDesktop {
         display:none;
     }
+    
+    #museum {
+    background-image: url("../../Content/images/mobile/background/blueMuseumCell.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: 650px;
+    background-color:#CA3CFF;
+    background-attachment: static;
+}
 }
 
 /*-----------------------------*/
@@ -292,7 +342,7 @@ hr.ft-light {
 /*site not intended to show this small*/
 @media only screen and (max-width: 300px){
     * {
-        opacity: 0;
+        display: none;
     }
 }
 
