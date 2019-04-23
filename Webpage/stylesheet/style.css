@@ -309,6 +309,11 @@ hr.ft-light {
         margin:0 -15px;
     }
     
+    
+    .img-phone-header {
+        display:none;
+    }
+    
 /*----Google Maps ------*/
     
     .location {
@@ -412,6 +417,10 @@ hr.ft-light {
         height: 50vh;
         background-size: cover;
         background-attachment: fixed;
+    }
+    
+    .img-desk-header {
+        display:none;
     }
 }
 /*-----------------------------*/
