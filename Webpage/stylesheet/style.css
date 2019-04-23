@@ -30,9 +30,10 @@ font-family: 'Montserrat', sans-serif; ---*/
 @media (min-width: 1200px) { ... }*/
 
 /* Global settings*/
+
 * {
     margin:0;
-    padding: 0;
+    padding:0;
 }
 
 html, body {
@@ -44,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+a.alert-link{
+    text-decoration: none;
+}
+
 blockquote {
     font-style: italic;
     font-weight:500;
@@ -51,12 +56,17 @@ blockquote {
 
 h2, .fatFont {
     text-transform: uppercase;
+    margin-top: 2em
 }
 
 .head2 {
     text-align: center;
     border-bottom: 2px solid grey;
     margin-bottom: 1.5rem;
+}
+
+h3.head2 {
+    border-bottom: none;
 }
 
 .fatFont {
@@ -82,8 +92,14 @@ h2, .fatFont {
 b {
     color: red;
 }
-/*----Button--------*/
+
+b.black {
+    color: black;
+}
+
+/*-----------------Button--------*/
 .btn-primary {
+    
     background-color: #70ABAF !important;
     border: 1px solid #B8C4BB !important;
 }
@@ -94,7 +110,7 @@ b {
     color: black !important;
 }
 
-/* Images */
+/*--------------Images-----------------*/
 .rnd-img {
     width: 10em;
     border-radius: 50%;
@@ -113,6 +129,9 @@ b {
 
 .img-fluid {
     margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 3px;
+    border: .8em solid grey;
 }
 #libary {
     background-image: url("../../Content/images/mobile/background/purple-lib.png");
@@ -135,7 +154,58 @@ b {
     margin: 2em auto;
 }
 
-/* NavBar*/
+#exploreImg {
+    background-image: url(../../Content/images/Logo/scientist.png);
+    background-repeat:no-repeat;
+    background-size: 7em;
+    background-position: bottom left;
+}
+
+#VR {
+    background-image: url("../../Content/images/mobile/background/vrbackground.png");
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-size: cover;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+    margin:0 -15px;
+}
+
+#intern {
+    background-image: url(../../Content/images/ball-1010907_1920.jpg);
+    background-repeat:no-repeat;
+    background-size: 7em;
+    background-position: bottom right;
+}
+
+#ant {
+    background-image: url("../../Content/images/mobile/background/ant.png");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-color:#CA3CFF;
+    background-attachment: fixed;
+}
+
+#cosmo {
+    background-image: url("../../Content/images/mobile/background/celso-405219.png.png");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-color: #32292F;
+    background-attachment: fixed;
+}
+
+#nightMammot {
+    background-image: url("../../Content/images/mobile/background/mammotDesktop.png");
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-color: #32292F;
+    background-attachment: fixed;
+}
+/*----------NavBar-----------*/
+
 .navbar h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -151,7 +221,7 @@ b {
 }
 
 .nav-link {
-    font-size: 1.1em !important;
+    font-size: 1.1em;
 }
 
 .carousel-caption {
@@ -167,7 +237,9 @@ b {
 .visitList {
     margin-top: 2em;
 }
+
 /* ---------------Footer ----------*/
+
 footer {
     background-color: #32292F;
     color: #F0F7F4;
@@ -178,23 +250,15 @@ hr.ft-light {
     border-top: 1px solid #F0F7F4;
 }
 
-@media only screen and (min-width: 992px) {
-    .teacher {
-        background-image: url(../../Content/images/teacher-2816112.jpg);
-        background-repeat:no-repeat;
-        background-size: 8em;
-        background-position: bottom right;
-    }
-}
-
 @media only screen and (min-width: 650px) {
     
-    /*Header carousel*/
+/*--------Header carousel-----------*/
+    
     .carousel-caption h1 {
-    font-family: 'Merriweather', serif; 
-    font-size: 300%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px black;
+        font-family: 'Merriweather', serif; 
+        font-size: 300%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 10px black;
     
     }
 
@@ -203,27 +267,31 @@ hr.ft-light {
     }
     
     #museum {
-    background-image: url("../../Content/images/mobile/background/blueMuseum.png");
-    background-repeat: no-repeat;
-    height: 50vh;
-    background-size: cover;
-    background-color:#CA3CFF;
-    background-attachment: fixed;
+        background-image: url("../../Content/images/mobile/background/blueMuseum.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: cover;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
 }
     
 /*------Background Image section---*/
+    
     .scientist {
         background-image: url(../../Content/images/Logo/scientist.png);
         background-repeat:no-repeat;
         background-size: 10em;
         background-position: bottom right;
     }
-/*-----------horisontal rule--------*/    
+    
+/*-----------horisontal rule--------*/ 
+    
     .my-4 {
         display:none;
     }
     
 /*--------Image Section---------*/
+    
     .galleryMobile {
         display:none;
     }
@@ -233,15 +301,26 @@ hr.ft-light {
         border: 2em solid grey; 
     }
     
+    #VR {
+        background-image: url("../../Content/images/mobile/background/vrbackgroundDesktop.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: cover;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        margin:0 -15px;
+    }
+    
 /*----Google Maps ------*/
+    
     .location {
         border: 10px solid grey;
         height: 600px;
     }
     
-.visitList {
-    margin-top: 6em;
-}
+    .visitList {
+        margin-top: 6em;
+    }
 }
 
 /*--------------------------*/
@@ -250,33 +329,48 @@ hr.ft-light {
     /*Header carousel*/
     
     .carousel-caption h1 {
-    font-family: 'Merriweather', serif; 
-    font-size: 150%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px black;
-    
+        font-family: 'Merriweather', serif; 
+        font-size: 150%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 10px black;
     }
 
     .carousel-caption h3 {
-    font-size: 80%;
-    
+        font-size: 80%;
     }
     
     .carousel-caption button {
-        font-size: .8em;
-        
+        font-size: .8em;  
     }
 /*background image section*/
+    
     #kids {
-    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-size: 90em;
-    background-color:#CA3CFF;
-    background-attachment: fixed;
-    background-position: center;
+        background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 90em;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        background-position: center;
     }
     
+    #ant {
+        background-image: url("../../Content/images/mobile/background/antCell.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 100%;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+    }
+
+    #cosmo {
+        background-image: url("../../Content/images/mobile/background/celsoCell.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: 100%;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+    }
 /*Images section*/
     
     .galleryDesktop {
@@ -284,29 +378,58 @@ hr.ft-light {
     }
     
     #museum {
-    background-image: url("../../Content/images/mobile/background/blueMuseumCell.png");
-    background-repeat: no-repeat;
-    height: 50vh;
-    background-size: 650px;
-    background-color:#CA3CFF;
-    background-attachment: static;
+        background-image: url("../../Content/images/mobile/background/blueMuseumCell.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: 650px;
+        background-color:#CA3CFF;
+        background-attachment: static;
+    }
+    
+    #exploreImg {
+        background-size:4.5em;
+    }
+    
+    #VR {
+        background-image: url("../../Content/images/mobile/background/vrbackgroundCell.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: cover;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        margin:0 -15px;
+    }
+    
+    #nightMammot {
+        background-image: url("../../Content/images/mobile/background/mammotCell.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: cover;
+        background-color: #32292F;
+        background-attachment: fixed;
+    }
 }
-}
-
 /*-----------------------------*/
 @media only screen and (max-width: 387px){
     
     /*Header carousel*/
     .carousel-caption h1 {
-    font-family: 'Merriweather', serif; 
-    font-size: 120%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px black;
+        font-family: 'Merriweather', serif; 
+        font-size: 120%;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 10px black;
     
     }
-
+    
+    p {
+        font-size: 1.1em
+    }
+    
+    h2.fatFont {
+        font-size: 1.4em;
+    }
     .carousel-caption h3 {
-    font-size: 0px;
+        font-size: 0px;
     
     }
     
@@ -314,29 +437,159 @@ hr.ft-light {
         font-size: .8em;
     }
     
-    .fatFont {
-        font-size: 2em !important;
+    .carousel-caption {
+        position:absolute;
+        top: 30%;
     }
+    h1.fatFont {
+        font-size: 2em;
+    }
+    
 /*---background image section*-----*/
+    
     #kids {
-    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-size: 80em;
-    background-color:#CA3CFF;
-    background-attachment: fixed;
-    background-position: center;
+        background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 80em;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        background-position: center;
     }
     
     #libary {
-    background-image: url("../../Content/images/mobile/background/purple-lib.png");
-    background-repeat: no-repeat;
-    height: 40vh;
-    background-size: 80em;
-    background-color:#CA3CFF;
-    background-attachment: fixed;
-    background-position: center;
+        background-image: url("../../Content/images/mobile/background/purple-lib.png");
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: 80em;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        background-position: center;
     }
+    
+    #cosmo {
+        height: 35vh;
+    }
+    
+    #ant {
+        height: 35vh;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    
+    #intern {
+        background-image: none;   
+    }
+}
+    
+/* super size screens, 1920 format */
+@media only screen and (min-width: 992px) {
+    
+    .teacher {
+        background-image: url(../../Content/images/teacher-2816112.jpg);
+        background-repeat:no-repeat;
+        background-size: 8em;
+        background-position: bottom right;
+    }
+    
+    #VR {
+        background-image: url("../../Content/images/mobile/background/vrbackgroundDesktop.png");
+        background-repeat: no-repeat;
+        height: 50vh;
+        background-size: cover;
+        background-color:#CA3CFF;
+        background-attachment: fixed;
+        margin:0 -15px;
+    }
+
+    #chemistry {
+        background-image: url(../../Content/images/science-2799817.jpg);
+        background-repeat:no-repeat;
+        background-size: 8em;
+        background-position: bottom left;
+        
+    }
+}
+@media only screen and (min-width: 1370px) {
+      p {
+        font-size: 1.8em;
+    }
+    h1.fatFont {
+        font-size: 5em;
+    }
+    
+    h2.fatFont {
+        font-size: 3em;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 5em;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 3em;
+    }
+    .jumbotron blockquote {
+        font-size: 2.5em;
+    }
+    
+    .col-md-4 h5 {
+        font-size: 2.5em;
+    }
+    
+    .carousel-caption button {
+        font-size: 2.4em;
+        margin-top: 1em;
+    
+    }
+    
+    .nav-link {
+    font-size: 1.7em;
+}
+}
+@media only screen and (min-width: 1441px) {
+    p {
+        font-size: 1.8em;
+    }
+    
+    p.lead {
+        font-size: 1.8em
+    }
+    h1.fatFont {
+        font-size: 7em;
+    }
+    
+    h2.fatFont, h2.head2 {
+        font-size: 5em;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 7em;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 3em;
+    }
+    .jumbotron blockquote {
+        font-size: 2.5em;
+    }
+    
+    .col-md-4 h5 {
+        font-size: 3em;
+    }
+    
+    .carousel-caption button {
+        font-size: 2.5em;
+        margin-top: 1em;
+    
+    }
+    
+    .nav-link {
+    font-size: 2em;
+    }
+    
 }
 
 /*site not intended to show this small*/
@@ -347,9 +600,9 @@ hr.ft-light {
 }
 
 /*---firefox bug fix ----------*/
-.carousel-item {
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-    -webkit-backface-visibility: visible; backface-visibility: visible;   
+    .carousel-item {
+        transition: -webkit-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+        -webkit-backface-visibility: visible; backface-visibility: visible;   
 }

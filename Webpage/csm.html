@@ -12,9 +12,10 @@
 <body>
         
 <!----------------- Navigation -------------------->
+    
     <nav role="navigation" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="csm.html"><img src="../Content/images/Logo/CSM-Logo.png" height="100rem" widht="auto"></a>
+            <a class="navbar-brand" href="csm.html"><img src="../Content/images/Logo/CSM-Logo.png" height="100rem" width="auto"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"><span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -38,56 +39,84 @@
         </div>
     </nav>
         
-<!----------------- Header ------------------------>
-    <div role="heading" id="slides" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li class="active" data-target="#slides" data-slide-to="0"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../Content/images/mobile/header/millenial-paint.png" alt="Youth painting with VR glasses on">
-                <div class="carousel-caption">
-                    <h1 class="display-4">Science Museum</h1>
-                    <h3>&quot;Explore Together&quot;</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="#" class="alert-link"></a>Read More</button>
-                    <button type="button" class="btn btn-primary btn-lg">explore</button>
+ <!----------------- Header ------------------------>
+    
+    <header role="heading">
+        <div role="heading" id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li class="active" data-target="#slides" data-slide-to="0"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3">
+                <li data-target="#slides" data-slide-to="4">
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../Content/images/mobile/header/millenial-paint.png" alt="Youth painting with VR glasses on">
+                    <div class="carousel-caption">
+                        <h1 class="display-4">Science Museum</h1>
+                        <h3>&quot;Explore Together&quot;</h3>
+                        <a href="#readMore" class="alert-link">
+                        <button type="button" class="btn btn-outline-light btn-lg">Read More</button></a>
+                        <a href="#csm">
+                        <button type="button" class="btn btn-primary btn-lg">explore</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../Content/images/mobile/header/museum.png"alt="Museum from the outside">
-                <div class="carousel-caption">
-                    <h1 class="display-4">Exhibition Spaces</h1>
-                    <h3>&quot;The Sky Above Us&quot;</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="#" class="alert-link"></a>Read More</button>
+                <div class="carousel-item">
+                    <img src="../Content/images/mobile/header/museum.png"alt="Museum from the outside">
+                    <div class="carousel-caption">
+                        <h1 class="display-4">Visit</h1>
+                        <h3>&quot;Free Entrance&quot;</h3>
+                        <a href="Visit/visit.htm#entrance" class="alert-link"><button type="button" class="btn btn-outline-light btn-lg">Read More</button></a>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../Content/images/mobile/header/science.png" alt="Picture of scientist in a spaceshuttle">
-                <div class="carousel-caption">
-
-                    <h1 class="display-4">Visit</h1>
-                    <h3>&quot;Free Entrance&quot;</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg"><a href="#" class="alert-link"></a>Read More</button>
+                <div class="carousel-item">
+                    <img src="../Content/images/mobile/header/learn.png" alt="Girl fascinated by math, header">
+                    <div class="carousel-caption">
+                        <h1 class="display-4">Explore</h1>
+                        <h3>&quot;For the Kids&quot;</h3>
+                        <a href="explore/explore.html#kids" class="alert-link"><button type="button" class="btn btn-outline-light btn-lg">Read More</button></a>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="../Content/images/mobile/header/science.png" alt="Picture of scientist in a spaceshuttle">
+                    <div class="carousel-caption">
+                        <h1 class="display-4">Exhibition Spaces</h1>
+                        <h3>&quot;The Sky Is Above Us&quot;</h3>
+                        <a href="exhibitionSpaces/exhibitionSpaces.html#skyIsAboveUs" class="alert-link">
+                        <button type="button" class="btn btn-outline-light btn-lg">Read More</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Content/images/mobile/header/nightMuseum.png" alt="Picture of bono the elephant at the night event.">
+                    <div class="carousel-caption">
+                        <h1 class="display-4">Special Events</h1>
+                        <h3>&quot;Night in the Museum&quot;</h3>
+                        <a href="specialEvents/specialEvents.html#readMoreNight" class="alert-link"><button type="button" class="btn btn-outline-light btn-lg">Read More</button></a>
+                    </div>
+                </div>            
             </div>
         </div>
-    </div>
+    </header>
+    
 <!---------------- Jumbotron Bootstrap ------------>
     
     <div class="container-fluid">
         <div class="row jumbotron">
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                <p class="lead">Come join us at the Community Science Museum where we’re committed to       making science accessible to all.</p>
+                <a name="readMore"></a>
+                <p class="lead">Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
                 <a href="#explore"><button type="button" class="btn btn-outline-secondary btn-lg">Read More</button></a>
             </div>
         </div>
     </div>
+    
 <!-------------------- Intro ---------------------->
-        <!----------- fxd Background during scroll -------->
+    
+<!----------- fxd Background during scroll -------->
+    
     <figure>
         <div class="fixed-wrap">
             <div id="kids">
@@ -98,6 +127,7 @@
     <div class="container-fluid padding">
         <div class="row welcome text-center">
             <div class="col-12">
+                <a name="csm"></a>
                 <h1 class="display-4 fatFont">For The Kids</h1>
                 <hr class="ft-light">
             </div>
@@ -107,8 +137,9 @@
             </div>
         </div>
     </div>
-<!-------------------- Three Column Section ------->
-
+    
+<!--------------- Three Column Section ------->
+    
     <div class="container-fluid padding scientist">
         <div class="row text-center padding">
             <div class="col-xs-12 col-sm-6 col-md-4">
@@ -121,19 +152,20 @@
                 <h4>&quot;Ecology&quot;</h4>
                 <p>Explore how to create a sustainable future not just for humans but for the whole planet.</p>
             </div>
-            <div class="col-sm-12 col-md-4 ">
+            <div class="col-sm-12 col-md-4">
                 <img src="../Content/images/mobile/heart-2607178_1920.jpg" class="rnd-img">
                 <h4>&quot;Biology and Medicine&quot;</h4>
                 <p>Unique insights into the great wonders of the tiny world.</p>
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 ">
-                <a href="../Webpage/Visit/visit.htm/#kids"><button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button></a>
+                <a href="explore/explore.html#kids"><button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button></a>
             </div>
         <hr class="my-4">
     </div>
     
-    <!----------- fxd Background during scroll -------->
+<!----------- fxd Background during scroll ---------->
+    
     <figure>
         <div class="fixed-wrap">
             <div id="libary">
@@ -142,6 +174,7 @@
     </figure>
     
 <!-------------------- Two COlumn ----------------->
+    
     <hr class="ft-light">
     <div class="container-fluid padding">
         <div class="row padding">
@@ -150,7 +183,7 @@
                 <p id="explore">As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p>
                 <p>Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
                 <br>
-                <a href="..." class="btn btn-primary">Learn More</a>
+                <a href="explore/explore.html#teacher" class="btn btn-primary">Learn More</a>
             </div>
             <div class="col-lg-6">
                 <img src="../Content/images/mobile/andrew-ruiz-348421.jpg" class="img-fluid" alt="space-suit operating a spaceship control panel.">
@@ -160,6 +193,7 @@
     <hr class="my-4">
     
 <!-----------------------Footer--------------------------->
+    
         <footer role="contentinfo">
             <div class="container-fluid padding">
                 <div class="row text-center">
@@ -193,8 +227,9 @@
                 </div>
             </div>
         </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
