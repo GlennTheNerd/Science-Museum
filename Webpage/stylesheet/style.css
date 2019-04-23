@@ -134,7 +134,7 @@ b.black {
     border: .8em solid grey;
 }
 #libary {
-    background-image: url("../../Content/images/mobile/background/purple-lib.png");
+    background-image: url("../images/mobile/background/purple-lib.png");
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
@@ -142,7 +142,7 @@ b.black {
     background-attachment: fixed;     
 }
 #kids {
-    background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+    background-image: url("../images/mobile/background/yellow-kid.png");
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
@@ -155,14 +155,14 @@ b.black {
 }
 
 #exploreImg {
-    background-image: url(../../Content/images/Logo/scientist.png);
+    background-image: url(../images/Logo/scientist.png);
     background-repeat:no-repeat;
     background-size: 7em;
     background-position: bottom left;
 }
 
 #VR {
-    background-image: url("../../Content/images/mobile/background/vrbackground.png");
+    background-image: url("../images/mobile/background/vrbackground.png");
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
@@ -172,14 +172,14 @@ b.black {
 }
 
 #intern {
-    background-image: url(../../Content/images/ball-1010907_1920.jpg);
+    background-image: url(../images/ball-1010907_1920.jpg);
     background-repeat:no-repeat;
     background-size: 7em;
     background-position: bottom right;
 }
 
 #ant {
-    background-image: url("../../Content/images/mobile/background/ant.png");
+    background-image: url("../images/mobile/background/ant.png");
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
@@ -188,7 +188,7 @@ b.black {
 }
 
 #cosmo {
-    background-image: url("../../Content/images/mobile/background/celso-405219.png.png");
+    background-image: url("../images/mobile/background/celso-405219.png.png");
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
@@ -197,7 +197,7 @@ b.black {
 }
 
 #nightMammot {
-    background-image: url("../../Content/images/mobile/background/mammotDesktop.png");
+    background-image: url("../images/mobile/background/mammotDesktop.png");
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
@@ -267,7 +267,7 @@ hr.ft-light {
     }
     
     #museum {
-        background-image: url("../../Content/images/mobile/background/blueMuseum.png");
+        background-image: url("../images/mobile/background/blueMuseum.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: cover;
@@ -278,7 +278,7 @@ hr.ft-light {
 /*------Background Image section---*/
     
     .scientist {
-        background-image: url(../../Content/images/Logo/scientist.png);
+        background-image: url(../images/Logo/scientist.png);
         background-repeat:no-repeat;
         background-size: 10em;
         background-position: bottom right;
@@ -302,7 +302,7 @@ hr.ft-light {
     }
     
     #VR {
-        background-image: url("../../Content/images/mobile/background/vrbackgroundDesktop.png");
+        background-image: url("../images/mobile/background/vrbackgroundDesktop.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: cover;
@@ -345,7 +345,7 @@ hr.ft-light {
 /*background image section*/
     
     #kids {
-        background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+        background-image: url("../images/mobile/background/yellow-kid.png");
         background-repeat: no-repeat;
         height: 40vh;
         background-size: 90em;
@@ -355,7 +355,7 @@ hr.ft-light {
     }
     
     #ant {
-        background-image: url("../../Content/images/mobile/background/antCell.png");
+        background-image: url("../images/mobile/background/antCell.png");
         background-repeat: no-repeat;
         height: 40vh;
         background-size: 100%;
@@ -364,7 +364,7 @@ hr.ft-light {
     }
 
     #cosmo {
-        background-image: url("../../Content/images/mobile/background/celsoCell.png");
+        background-image: url("../images/mobile/background/celsoCell.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: 100%;
@@ -378,7 +378,7 @@ hr.ft-light {
     }
     
     #museum {
-        background-image: url("../../Content/images/mobile/background/blueMuseumCell.png");
+        background-image: url("../images/mobile/background/blueMuseumCell.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: 650px;
@@ -391,7 +391,7 @@ hr.ft-light {
     }
     
     #VR {
-        background-image: url("../../Content/images/mobile/background/vrbackgroundCell.png");
+        background-image: url("../images/mobile/background/vrbackgroundCell.png");
         background-repeat: no-repeat;
         height: 40vh;
         background-size: cover;
@@ -401,7 +401,7 @@ hr.ft-light {
     }
     
     #nightMammot {
-        background-image: url("../../Content/images/mobile/background/mammotCell.png");
+        background-image: url("../images/mobile/background/mammotCell.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: cover;
@@ -448,7 +448,7 @@ hr.ft-light {
 /*---background image section*-----*/
     
     #kids {
-        background-image: url("../../Content/images/mobile/background/yellow-kid.png");
+        background-image: url("../images/mobile/background/yellow-kid.png");
         background-repeat: no-repeat;
         height: 40vh;
         background-size: 80em;
@@ -458,7 +458,7 @@ hr.ft-light {
     }
     
     #libary {
-        background-image: url("../../Content/images/mobile/background/purple-lib.png");
+        background-image: url("../images/mobile/background/purple-lib.png");
         background-repeat: no-repeat;
         height: 40vh;
         background-size: 80em;
@@ -488,14 +488,14 @@ hr.ft-light {
 @media only screen and (min-width: 992px) {
     
     .teacher {
-        background-image: url(../../Content/images/teacher-2816112.jpg);
+        background-image: url(../images/teacher-2816112.jpg);
         background-repeat:no-repeat;
         background-size: 8em;
         background-position: bottom right;
     }
     
     #VR {
-        background-image: url("../../Content/images/mobile/background/vrbackgroundDesktop.png");
+        background-image: url("../images/mobile/background/vrbackgroundDesktop.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-size: cover;
@@ -505,7 +505,7 @@ hr.ft-light {
     }
 
     #chemistry {
-        background-image: url(../../Content/images/science-2799817.jpg);
+        background-image: url(../images/science-2799817.jpg);
         background-repeat:no-repeat;
         background-size: 8em;
         background-position: bottom left;
