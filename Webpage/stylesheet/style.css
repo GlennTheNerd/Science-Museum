@@ -351,6 +351,14 @@ hr.ft-light {
         background-position: center;
     }
     
+    #libary {
+        background-image: url("../images/mobile/background/purple-lib.png");
+        background-repeat: no-repeat;
+        height: 60vh;
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+    }
     
     #ant {
         background-image: url("../images/mobile/background/antCell.png");
@@ -447,20 +455,18 @@ hr.ft-light {
     #kids {
         background-image: url("../images/mobile/background/yellow-kid.png");
         background-repeat: no-repeat;
-        height: 40vh;
-        background-size: 80em;
-        background-color:#CA3CFF;
-        background-attachment: fixed;
+        height: 60vh;
+        background-size: cover;
+        background-attachment: scroll;
         background-position: center;
     }
     
     #libary {
         background-image: url("../images/mobile/background/purple-lib.png");
         background-repeat: no-repeat;
-        height: 40vh;
-        background-size: cover;
-        background-color:#CA3CFF;
-        background-attachment: fixed;
+        height: 60vh;
+        background-size:cover ;
+        background-attachment:scroll;
         background-position: center;
     }
     
