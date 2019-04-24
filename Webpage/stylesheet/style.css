@@ -138,7 +138,6 @@ b.black {
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
-    background-color:#CA3CFF;
     background-attachment: fixed;     
 }
 #kids {
@@ -146,7 +145,6 @@ b.black {
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
-    background-color:#CA3CFF;
     background-attachment: fixed;
 }
 
@@ -166,7 +164,6 @@ b.black {
     background-repeat: no-repeat;
     height: 50vh;
     background-size: cover;
-    background-color:#CA3CFF;
     background-attachment: fixed;
     margin:0 -15px;
 }
@@ -183,7 +180,6 @@ b.black {
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
-    background-color:#CA3CFF;
     background-attachment: fixed;
 }
 
@@ -192,7 +188,6 @@ b.black {
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
-    background-color: #32292F;
     background-attachment: fixed;
 }
 
@@ -201,7 +196,6 @@ b.black {
     background-repeat: no-repeat;
     height: 60vh;
     background-size: cover;
-    background-color: #32292F;
     background-attachment: fixed;
 }
 /*----------NavBar-----------*/
@@ -266,15 +260,16 @@ hr.ft-light {
         font-size: 120%;
     }
     
-    #museum {
+
+    
+/*------Background Image section---*/
+    
+        #museum {
         background-image: url("../images/mobile/background/blueMuseum.png");
         background-repeat: no-repeat;
         height: 50vh;
-        background-color:#CA3CFF;
         background-attachment: fixed;
 }
-    
-/*------Background Image section---*/
     
     .scientist {
         background-image: url(../images/Logo/scientist.png);
