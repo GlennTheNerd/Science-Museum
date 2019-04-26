@@ -95,8 +95,9 @@ b {
     color: red;
 }
 
-b.black {
+em, em.black {
     color: black;
+    font-weight: 600;
 }
 
 /*-----------------Button--------*/
