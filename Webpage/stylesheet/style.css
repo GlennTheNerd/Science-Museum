@@ -264,11 +264,13 @@ hr.ft-light {
     
 /*------Background Image section---*/
     
-        #museum {
+    #museum {
         background-image: url("../images/mobile/background/blueMuseum.png");
         background-repeat: no-repeat;
         height: 50vh;
         background-attachment: fixed;
+        background-size: cover;
+        
 }
     
     .scientist {
