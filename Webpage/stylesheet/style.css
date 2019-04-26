@@ -54,6 +54,7 @@ blockquote {
     font-weight:500;
 }
 
+
 h2, .fatFont {
     text-transform: uppercase;
     margin-top: 2em
@@ -72,8 +73,9 @@ h3.head2 {
 .fatFont {
      font-weight:600 !important;
 }
-.carousel-caption h3 {
+.carousel-caption h2 {
         text-shadow: 1px 1px 10px black;
+        font-size: 1em;
     }
 
 .jumbotron {
@@ -256,7 +258,7 @@ hr.ft-light {
     
     }
 
-    .carousel-caption h3 {
+    .carousel-caption h2 {
         font-size: 120%;
     }
     
@@ -335,7 +337,7 @@ hr.ft-light {
         text-shadow: 1px 1px 10px black;
     }
 
-    .carousel-caption h3 {
+    .carousel-caption h2 {
         font-size: 80%;
     }
     
@@ -439,8 +441,8 @@ hr.ft-light {
     h2.fatFont {
         font-size: 1.4em;
     }
-    .carousel-caption h3 {
-        font-size: 0px;
+    .carousel-caption h2 {
+        display:none;
     
     }
     
@@ -537,7 +539,7 @@ hr.ft-light {
         font-size: 5em;
     }
     
-    .carousel-caption h3 {
+    .carousel-caption h2 {
         font-size: 3em;
     }
     .jumbotron blockquote {
@@ -578,7 +580,7 @@ hr.ft-light {
         font-size: 7em;
     }
     
-    .carousel-caption h3 {
+    .carousel-caption h2 {
         font-size: 3em;
     }
     .jumbotron blockquote {
